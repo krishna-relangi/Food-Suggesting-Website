@@ -1,0 +1,195 @@
+.navigation{
+    float: center;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: -20px;
+    margin-right: 20px;
+    margin-bottom: -20px;
+}
+
+.navigation li a{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+     border: 1px solid chocolate;
+    border-radius: 20px;
+    border-color: antiquewhite;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.navigation li a:hover,
+.navigation li a:active{
+    border-bottom: solid;
+    border-bottom-color: darkred;
+    background-color: darkcyan;
+}
+body{
+    margin:0;
+    padding:0;
+    background: url(Img/ourcities_bg.jpg);
+    background-size: cover;
+    background-position:center;
+    font-family: bankgothic ;
+}
+.container
+{
+    width: 90%;
+    padding: 5px;
+    background: rgba(0,0,0,0);
+    margin: -50px auto;
+    display: flex;
+    justify-content: center;
+    position: center;
+    margin-left:63px;
+        margin-top:-40px;
+}
+.box
+{
+width: 250px;
+height: 300px;
+background: rgba(0,0,0,0.3);
+  
+float: left;
+margin: 0px 10px;
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.3);
+    background: rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+.viewbutn
+{
+    text-align: center;
+position: absolute;
+border: black;
+outline: none;
+height: 25px;
+width: 95px;    
+background: none;
+color: white;
+font-size: 15px;
+border-radius:10px;
+    margin-left: 84px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.viewbutn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+.image
+{
+margin-top: 30px;
+border-radius: 5px;
+border-color: azure
+
+}
+.callbutn
+{
+    text-align: center;
+position: absolute;
+border-color: black;
+outline: none;
+height: 25px;
+width: 55px;    
+background-color: limegreen;
+color: #fff;
+font-size: 15px;
+border-radius: 20px;
+    margin-left: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.callbutn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+.menubutn
+{
+    text-align: center;
+position: absolute;
+border-color: black;
+outline: none;
+height: 25px;
+width: 55px;    
+background-color: limegreen;
+color: #fff;
+font-size: 15px;
+border-radius: 20px;
+    margin-left: 148px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.menubutn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+.gallerybutn
+{
+text-align: left;
+position: absolute;
+border-color: black;
+height: 25px;
+width: 155px;    
+background-color:none;
+color: #fff;
+font-size: 15px;
+border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.gallerybutn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+.heading
+{
+    width: 60%;
+    padding: 5px;
+    background: rgba(0,0,0,0);
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    position: center;
+    margin-left:273px;
+        margin-top:60px;
+}
+.heading h1{
+color: white;
+    font-family: cursive;
+}
+.viewbtn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 5px;
+  padding: 8px 38px 10px 32px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+
+.viewbtn:hover {
+  background: #6cf0aa;
+  text-decoration: none;
+}

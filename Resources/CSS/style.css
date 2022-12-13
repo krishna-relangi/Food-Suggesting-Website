@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+head{
+    
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+html{
+    background-color: white;
+    color: #555;
+    font-family: 'Lato' 'Arial' sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;    
+}
+
+section{
+    padding-top: 80px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size:180%;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+
+h2:after{
+    display: block; 
+    height: 2px;
+    background-color: chocolate;
+    content: " ";
+    width:100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 150%;
+    margin-top: 15px;
+}
+.longcopy{
+  font-size: 120%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(Img/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.mainbox{
+    position:absolute;
+    width: 1140px;
+    left: 500px;
+    top:380px;
+}
+h1{
+    color:white;
+    font-size:240%;
+    font-weight: 300;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:link,
+.btn:visited,
+input[type=button]{
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+}
+.btn-full:link,
+.btn-full:visited,
+{
+    background-color: black;
+    color: white;
+    border: 1px solid chocolate;
+}
+.btn-ghost:link,
+.btn-ghost:visited,input[type=button]
+{
+    border: solid 1px aqua ;
+    color: white;
+}
+
+.btn:hover,
+.btn:active,input[type=button]:active,
+input[type=button]:hover{
+    background-color: teal;
+}
+
+.navigation{
+    float: right;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.navigation li a:hover,
+.navigation li a:active{
+    border-bottom: solid;
+    border-bottom-color: tan;
+}
+
+.detail{
+    font-size: 110%;
+    letter-spacing: 110%;
+    margin-top: 30px;
+    
+
+}
+.icon{
+    display: block;
+    font-size: 250%;
+    color: chocolate;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.icon-small{
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    color: chocolate;
+    font-size: 120%;
+    margin-right: 10px;
+}
+        
+.meals-showcase{
+    width: 100%;
+    list-style: none;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+.section-meals{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.meals-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden ;
+    background-color: black;
+}
+.section-steps{
+    width: 100%;
+}
+.apple-screen{
+    width: 25%;
+    float: right;
+    margin-right: 40px;
+
+}
+
+.meals-photo img{
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+}
+
+.meals-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.steps-para{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 150%;
+}
+
+.number{
+    border: 2px solid chocolate;
+    border-color: chocolate;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 150%;
+    float: left;
+    margin-right:30px; 
+    margin-top: 10px;
+}
+
+.download-btn-apple img{
+     height: 50px;
+     width: auto;
+    margin-right: 10px;
+    margin-left: 30px;
+    float: right;
+    position: absolute;
+    left: 200px;
+}
+
+.download-btn-android img{
+     height: 50px;
+     width: auto;
+    margin-right: 10px;
+    position: absolute;
+    right: 500px;   
+}
+
+.city{
+    text-decoration: none;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    
+}
+
+.box h3{
+   margin-bottom: 20px;
+}
+
+.box a{
+    text-decoration: none;
+    color: chocolate;
+    border-bottom: 1px solid chocolate;
+    padding-bottom: 1px;
+}
+
+.customer-review{
+    width: 1500px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(Img/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 90%;
+    color: white;
+}
+
+blockquote{
+    width: 65%;
+    height: 110%;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+
+cite{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.last-quote{
+    width: 85%;
+    
+}
+
+blockquote:before{
+    content: "\201C";
+    color: white;
+    font-size: 500%;
+}
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type="text"],select,textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+input[type=button]
+{
+ color: white;
+}
+.abt
+{
+    margin-left: 30px;
+    margin-top: -80px;
+    margin-right: -20px;
+}
+

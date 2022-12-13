@@ -1,0 +1,96 @@
+.viewbutnn
+{
+    text-align: center;
+position: absolute;
+border: black;
+outline: none;
+height: 25px;
+width: 55px;    
+background: #fb2525;
+color: #fff;
+font-size: 15px;
+border-radius:20px;
+    margin-left: 84px;
+    margin-top: 170px;
+    margin-bottom:50px; 
+    font-weight: bold;
+}
+.viewbutnn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+.image
+{
+margin-top: 30px;
+border-radius: 10px;
+border-color: azure
+
+}
+.callbutnn
+{
+    text-align: center;
+position: absolute;
+border-color: black;
+outline: none;
+height: 25px;
+width: 55px;    
+background-color: limegreen;
+color: #fff;
+font-size: 15px;
+border-radius: 20px;
+    margin-left: 18px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.callbutnn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+.menubutnn
+{
+    text-align: center;
+position: absolute;
+border-color: black;
+outline: none;
+height: 25px;
+width: 55px;    
+background-color: limegreen;
+color: #fff;
+font-size: 15px;
+border-radius: 20px;
+    margin-left: 148px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.menubutnn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
+.gallerybutnn
+{
+text-align: left;
+position: absolute;
+border-color: black;
+outline: none;
+height: 25px;
+width: 155px;    
+background-color: dimgray;
+color: #fff;
+font-size: 15px;
+border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 170px;
+    font-weight: bold;
+}
+.gallerybutnn :hover
+{
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+}
